@@ -1,0 +1,10 @@
+| Task                       | Status          |
+| -------------------------- | --------------- |
+| Meta description & favicon | ✅ (partial)     |
+| Project thumbnails         | ✅               |
+| All links to real content  | ✅ (as possible) |
+| Contact form               | ✅ (mailto)      |
+| Analytics                  | ❌               |
+| Accessibility              | 🟡 (basic)      |
+| Deploy website             | ❌               |
+| Resume/CV link             | ❌               |
