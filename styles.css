@@ -355,4 +355,55 @@ footer {
     height: 180px;
     border-radius: 20px;
   }
-  
+
+/* ==== Services Section ==== */
+
+#services {
+  padding: 80px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #3ca0e7;
+  font-weight: bold;
+}
+
+/* Grid layout */
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Individual service card */
+.service-card {
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  padding: 30px 20px;
+  width: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  cursor: default;
+}
+
+/* Hover effect */
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  color: #1e3f66;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
