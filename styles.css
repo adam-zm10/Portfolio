@@ -105,7 +105,7 @@ html, body {
 }
 
 /* Projects */
-#projects {
+#projects #services {
   padding: 5rem 2rem;
   background-color: #181818;
   color: #e0c97f;
