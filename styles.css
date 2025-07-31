@@ -116,7 +116,7 @@ html, body {
   box-shadow: 0 0 25px #e0c97f44;
 }
 
-#projects h2 {
+#projects #services h2 {
   font-size: 2.8rem;
   margin-bottom: 3rem;
   font-weight: 700;
