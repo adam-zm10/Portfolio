@@ -371,3 +371,7 @@ footer {
   font-weight: 700;
   color: #e0c97f;
 }
+
+#services .project-card p {
+  text-align: center;
+}
