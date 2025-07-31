@@ -105,7 +105,7 @@ html, body {
 }
 
 /* Projects */
-#projects #services {
+#projects, #services {
   padding: 5rem 2rem;
   background-color: #181818;
   color: #e0c97f;
@@ -116,7 +116,7 @@ html, body {
   box-shadow: 0 0 25px #e0c97f44;
 }
 
-#projects #services h2 {
+#projects h2, #services h2 {
   font-size: 2.8rem;
   margin-bottom: 3rem;
   font-weight: 700;
