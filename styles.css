@@ -36,19 +36,16 @@ html, body {
 
 /* Big faint initials background */
 #intro-header::before {
-  content: "AZ";
-  position: absolute;
-  font-size: 20rem;
-  font-weight: 900;
-  color: #e0c97f22; /* very transparent gold */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  letter-spacing: 0.2em;
-  user-select: none;
-  pointer-events: none;
-  z-index: 1;
+  content: "";
+  background-image: url('your-banner-image-url.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 /* Navbar */
