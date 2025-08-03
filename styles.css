@@ -513,3 +513,15 @@ text-align: center;
     margin-top: 0.5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .nav-logo {
+    display: none;
+  }
+
+  #navbar {
+    justify-content: center; /* center the nav-links since logo is gone */
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
