@@ -516,34 +516,49 @@ text-align: center;
 
 /* Hide the menu toggle on desktop */
 .menu-toggle {
-  display: none;
+  display: none;       /* Hidden by default on desktop */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
   background: none;
   border: none;
-  font-size: 2rem;
-  color: #e0c97f;
   cursor: pointer;
+  padding: 0;
+  z-index: 1000;
 }
 
-/* Responsive menu behavior */
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #e0c97f; /* gold-ish color */
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Show hamburger only on mobile */
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block;
+    display: flex;
   }
 
+  /* Hide nav-links initially on mobile */
   .nav-links {
     display: none;
     flex-direction: column;
     gap: 1.5rem;
     margin-top: 1rem;
     width: 100%;
-    background-color: #1a1a1a;
-    padding: 1rem;
-    border-radius: 8px;
+    background-color: transparent; /* No background */
+    padding: 0;
+    border-radius: 0;
+    justify-content: center;
+    align-items: center;
   }
 
+  /* Show nav-links when toggled */
   .nav-links.show {
     display: flex;
   }
 }
-
-
