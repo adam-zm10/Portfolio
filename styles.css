@@ -506,14 +506,20 @@ text-align: center;
     padding-right: 0;
   }
   .nav-links {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 0.5rem;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-top: 0.5rem;
+}
+
   .nav-logo {
     display: none;
   }
 }
+
 
