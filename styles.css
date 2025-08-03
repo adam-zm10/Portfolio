@@ -427,9 +427,6 @@ margin-bottom: 1.3rem;
     flex-wrap: wrap;
   }
 
-  .nav-logo {
-    display: none; /* Hide logo on mobile */
-  }
 
   .nav-links {
     display: flex;
@@ -526,3 +523,4 @@ margin-bottom: 1.3rem;
     text-align: center;
   }
 }
+
